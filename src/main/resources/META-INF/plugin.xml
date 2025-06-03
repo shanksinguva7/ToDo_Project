@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.shashank.todo</id>
+    <name>TODO Highlighter</name>
+    <version>1.6.6</version>
+    <vendor email="shashank.inguva@outlook.in">Shashank Inguva</vendor>
+
+    <description><![CDATA[
+        • Highlights TODOs in Kotlin files.
+        • Lists them in a sidebar for easy navigation.
+        • It provides an easier workflow for developers.
+    ]]></description>
+
+    <idea-version since-build="243.0"/>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="TODO_Highlighter"
+                factoryClass="ToDo_Windowpane"
+                anchor="right"
+                displayName="TODOs"/>
+
+        <annotator
+                language="kotlin"
+                implementationClass="ToDo_Highlighter"/>
+        <colorSettingsPage implementation="TodoColorSettingsPage"/>
+    </extensions>
+
+    <actions>
+    </actions>
+</idea-plugin>
