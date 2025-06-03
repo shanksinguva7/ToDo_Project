@@ -33,15 +33,6 @@ Kotlin_Project/
 4. Open any Kotlin file and click `Refresh TODOs` in the side panel.
 5. View and jump to TODOs instantly.
 
-## Testing
-
-Use the provided Kotlin files to test the plugin:
-- `Main.kt`
-- `Testcase.kt`
-- `TestcaseLarge.kt`
-
-Each contains various types of TODO comments to test the plugin.
-
 ## Future Improvements
 
 - Add support for other languages (Java, Python, etc.)
