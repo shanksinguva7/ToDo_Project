@@ -10,6 +10,7 @@ A custom IntelliJ plugin that highlights `TODO` comments in Kotlin files with di
   - Single-line `// TODO:`
   - Block comments `/* TODO: ... */`
   - Inline TODOs in code
+- The main and important files are named under "main" for easy knowledge 
 
 ## Project Structure
 
